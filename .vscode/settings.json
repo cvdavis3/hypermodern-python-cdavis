@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/home/cdavis19/.pyenv/versions/3.8.2/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}

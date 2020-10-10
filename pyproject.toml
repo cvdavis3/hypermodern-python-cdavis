@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "hypermodern-python-cdavis"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.1.2"
+requests = "^2.24.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+description = "The hypermodern Python project"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/cvdavis3/hypermodern-python-cdavis"
+repository = "https://github.com/cvdavis3/hypermodern-python-cdavis"
+keywords = ["hypermodern"]
+
+[tool.poetry.scripts]
+hypermodern-python-cdavis = "hypermodern_python_cdavis.console:main"
