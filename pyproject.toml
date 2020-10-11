@@ -8,6 +8,8 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.8"
 click = "^7.1.2"
 requests = "^2.24.0"
+jupyter = "^1.0.0"
+Wikipedia-API = "^0.5.4"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.6.0"
