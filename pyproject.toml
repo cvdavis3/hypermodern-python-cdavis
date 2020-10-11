@@ -3,6 +3,7 @@ name = "hypermodern-python-cdavis"
 version = "1.0.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
+documentation = "https://hypermodern-python.readthedocs.io"
 
 [tool.poetry.dependencies]
 python = "^3.7"
