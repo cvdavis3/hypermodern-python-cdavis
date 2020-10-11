@@ -33,6 +33,7 @@ darglint = "^1.5.5"
 xdoctest = "^0.15.0"
 Sphinx = "^3.2.1"
 sphinx-autodoc-typehints = "^1.11.0"
+codecov = "^2.1.10"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
