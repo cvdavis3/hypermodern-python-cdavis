@@ -4,24 +4,24 @@ rule infer
 rule check
   command = /home/cdavis19/hypermodern-python-cdavis/.nox/pytype/bin/python -m pytype.single --disable import-error --imports_info $imports --module-name $module -V 3.7 -o $out --analyze-annotated --nofail --quick $in
   description = check $module
-build /home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/noxfile.pyi: check /home/cdavis19/hypermodern-python-cdavis/noxfile.py
-  imports = /home/cdavis19/hypermodern-python-cdavis/.pytype/imports/noxfile.imports
-  module = noxfile
-build /home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/__init__.pyi: check /home/cdavis19/hypermodern-python-cdavis/tests/__init__.py
-  imports = /home/cdavis19/hypermodern-python-cdavis/.pytype/imports/tests.__init__.imports
-  module = tests.__init__
-build /home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/conftest.pyi: check /home/cdavis19/hypermodern-python-cdavis/tests/conftest.py
-  imports = /home/cdavis19/hypermodern-python-cdavis/.pytype/imports/tests.conftest.imports
-  module = tests.conftest
-build /home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/conf.pyi: check /home/cdavis19/hypermodern-python-cdavis/docs/conf.py
-  imports = /home/cdavis19/hypermodern-python-cdavis/.pytype/imports/conf.imports
-  module = conf
 build /home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/hypermodern_python_cdavis/wikipedia.pyi: check /home/cdavis19/hypermodern-python-cdavis/src/hypermodern_python_cdavis/wikipedia.py
   imports = /home/cdavis19/hypermodern-python-cdavis/.pytype/imports/hypermodern_python_cdavis.wikipedia.imports
   module = hypermodern_python_cdavis.wikipedia
 build /home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/test_wikipedia.pyi: check /home/cdavis19/hypermodern-python-cdavis/tests/test_wikipedia.py | /home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/hypermodern_python_cdavis/wikipedia.pyi
   imports = /home/cdavis19/hypermodern-python-cdavis/.pytype/imports/tests.test_wikipedia.imports
   module = tests.test_wikipedia
+build /home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/noxfile.pyi: check /home/cdavis19/hypermodern-python-cdavis/noxfile.py
+  imports = /home/cdavis19/hypermodern-python-cdavis/.pytype/imports/noxfile.imports
+  module = noxfile
+build /home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/conf.pyi: check /home/cdavis19/hypermodern-python-cdavis/docs/conf.py
+  imports = /home/cdavis19/hypermodern-python-cdavis/.pytype/imports/conf.imports
+  module = conf
+build /home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/conftest.pyi: check /home/cdavis19/hypermodern-python-cdavis/tests/conftest.py
+  imports = /home/cdavis19/hypermodern-python-cdavis/.pytype/imports/tests.conftest.imports
+  module = tests.conftest
+build /home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/__init__.pyi: check /home/cdavis19/hypermodern-python-cdavis/tests/__init__.py
+  imports = /home/cdavis19/hypermodern-python-cdavis/.pytype/imports/tests.__init__.imports
+  module = tests.__init__
 build /home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/hypermodern_python_cdavis/__init__.pyi: check /home/cdavis19/hypermodern-python-cdavis/src/hypermodern_python_cdavis/__init__.py
   imports = /home/cdavis19/hypermodern-python-cdavis/.pytype/imports/hypermodern_python_cdavis.__init__.imports
   module = hypermodern_python_cdavis.__init__

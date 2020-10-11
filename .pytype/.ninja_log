@@ -38,3 +38,8 @@
 4503	5498	1602451508840000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/test_wikipedia.pyi	334ecaef7dd0b765
 5499	6544	1602451509860000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/hypermodern_python_cdavis/console.pyi	1a665c785a43dc21
 6544	8631	1602451511900000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/test_console.pyi	b4cb8e275e4bdcc2
+0	1749	1602458560510000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/noxfile.pyi	64ffd8c898c2917e
+1750	2393	1602458561380000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/conf.pyi	49198a88d3c56695
+2393	3117	1602458562090000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/hypermodern_python_cdavis/__init__.pyi	511201891027197b
+3117	4416	1602458563350000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/hypermodern_python_cdavis/console.pyi	1a665c785a43dc21
+4416	6853	1602458565710000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/test_console.pyi	b4cb8e275e4bdcc2
