@@ -1,4 +1,3 @@
-# src/hypermodern_python/__init__.py
 """The hypermodern Python project."""
 try:
     from importlib.metadata import version, PackageNotFoundError  # type: ignore

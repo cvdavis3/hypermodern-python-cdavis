@@ -1,4 +1,3 @@
-# tests/test_wikipedia.py
 """Test cases for the wikipedia module."""
 from unittest.mock import Mock
 

@@ -1,10 +1,9 @@
 # (generated with --quick)
 
-from typing import Any, Type
-import unittest.mock
+from typing import Any
 
 Config: Any
-Mock: Type[unittest.mock.Mock]
+Mock: Any
 MockFixture: Any
 mock_requests_get: Any
 pytest: Any

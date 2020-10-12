@@ -1,4 +1,3 @@
-# src/hypermodern_python_cdavis/console.py
 """Command-line interface."""
 import textwrap
 

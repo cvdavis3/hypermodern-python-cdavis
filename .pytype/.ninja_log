@@ -43,3 +43,12 @@
 2393	3117	1602458562090000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/hypermodern_python_cdavis/__init__.pyi	511201891027197b
 3117	4416	1602458563350000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/hypermodern_python_cdavis/console.pyi	1a665c785a43dc21
 4416	6853	1602458565710000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/test_console.pyi	b4cb8e275e4bdcc2
+0	512	1602489488720000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/hypermodern_python_cdavis/__init__.pyi	511201891027197b
+512	2313	1602489490500000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/hypermodern_python_cdavis/wikipedia.pyi	ae4f34c4541add19
+2313	2940	1602489491150000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/conf.pyi	49198a88d3c56695
+2940	3849	1602489492040000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/hypermodern_python_cdavis/console.pyi	1a665c785a43dc21
+3849	5707	1602489493870000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/test_console.pyi	b4cb8e275e4bdcc2
+5707	6277	1602489494470000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/__init__.pyi	7a63b3148211cadb
+6277	6854	1602489495060000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/conftest.pyi	5d3cf2764bd5d941
+6854	7754	1602489495950000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/tests/test_wikipedia.pyi	334ecaef7dd0b765
+7754	9024	1602489497120000000	/home/cdavis19/hypermodern-python-cdavis/.pytype/pyi/noxfile.pyi	64ffd8c898c2917e
