@@ -1,5 +1,5 @@
 [![Tests](https://github.com/cvdavis3/hypermodern-python-cdavis/workflows/Tests/badge.svg)](https://github.com/cvdavis3/hypermodern-python-cdavis/actions?workflow=Tests)
-[![Codecov](https://codecov.io/gh/cvdavis3/hypermodern-python-cdavis/branch/master/graph/badge.svg)](https://codecov.io/gh/cvdavis3/hypermodern-python-cdavis)
+[![Codecov](https://codecov.io/gh/cvdavis3/hypermodern-python-cdavis/branch/main/graph/badge.svg)](https://codecov.io/gh/cvdavis3/hypermodern-python-cdavis)
 [![PyPI](https://img.shields.io/pypi/v/hypermodern-python-cdavis.svg)](https://pypi.org/project/hypermodern-python-cdavis/)
 [![Read the Docs](https://readthedocs.org/projects/hypermodern-python-cdavis/badge/)](https://hypermodern-python-cdavis.readthedocs.io/)
 
