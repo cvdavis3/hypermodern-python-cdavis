@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hypermodern-python-cdavis"
-version = "0.1.0"
+version = "1.0.2"
 description = "The hypermodern Python project"
 authors = ["Colin Davis <cvdavis3@gmail.com>"]
 license = "MIT"
